@@ -45,7 +45,11 @@ class MainScreen extends Component {
 }
 ```
 
+- ```text``` string to run effect.
+- ```charMovingTime``` delay time to play a character.
+- ```style``` apply all style of ```Text``` component.
+
+
 ## Walkthrough
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
 ![Video Walkthrough](walkthrough.gif)
