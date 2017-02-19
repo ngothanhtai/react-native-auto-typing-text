@@ -1,8 +1,18 @@
+# react-native-auto-typing-text
+
+This is a library which create auto typing text effect.
+
+## Install
+```
+npm install --save react-native-auto-typing-text
+```
+
+## Toturial
+Let's take a look at a simple example.
+
+```js
 import React, { Component } from 'react';
-import {
-  Text,
-  View
-} from 'react-native';
+import { View } from 'react-native';
 import AutotypingText from '../components/AutotypingText';
 
 class MainScreen extends Component {
@@ -33,5 +43,9 @@ class MainScreen extends Component {
   }
 
 }
+```
 
-export default MainScreen;
+## Walkthrough
+
+`<Add your Walkthrough Gif here (by updating the image URL)>`
+![Video Walkthrough](walkthrough.gif)
