@@ -4,19 +4,27 @@ import {
   Text,
   View
 } from 'react-native';
-
+import HiddenText from './HiddenText';
 class AutotypingText extends Component {
 
   constructor(props){
     super(props);
-    this.state = {textShow: ''};
-    const {text, charMovingTime, onComplete} = this.props;
+    this.state = {
+      textShow: '',
+    };
+
+  }
+
+  componentWillUnmount() {
+    clearInterval(interval);
+  }
+
+  startTyping(text) {
+    const {charMovingTime, onComplete} = this.props;
     if(text === '') {
       return;
     }
-
     let textShow = '';
-
     let counter = 0;
     let len = text.length;
 
@@ -36,10 +44,6 @@ class AutotypingText extends Component {
     );
   }
 
-  componentWillUnmount() {
-    clearInterval(interval);
-  }
-
   render() {
     const {style} = this.props;
     let textShow = this.state.textShow;
@@ -48,12 +52,20 @@ class AutotypingText extends Component {
           flex: 1
       }}
       >
-        <Text style={{
-          ...style
-        }}
+        <Text
+          style={{
+            ...style
+          }}
         >
           {textShow}
         </Text>
+
+        <HiddenText
+          { ...this.props }
+          onResult={(text) => {
+            this.startTyping(text);
+          }}
+        />
       </View>
     );
   }
