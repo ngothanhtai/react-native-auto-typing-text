@@ -1,22 +1,32 @@
 {
-	"name": "CharactersSlider",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest"
-	},
-	"dependencies": {
-		"react": "15.4.2",
-		"react-native": "0.41.2"
-	},
-	"devDependencies": {
-		"babel-jest": "18.0.0",
-		"babel-preset-react-native": "1.9.1",
-		"jest": "18.1.0",
-		"react-test-renderer": "15.4.2"
-	},
-	"jest": {
-		"preset": "react-native"
-	}
+  "name": "react-native-auto-typing-text",
+  "version": "1.0.1",
+  "description": "Auto typing text",
+  "main": "AutotypingText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongla/react-native-auto-typing-text.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "mobile",
+    "ios",
+    "android",
+    "auto",
+    "typing",
+    "text"
+  ],
+  "author": "Ngo Thanh Tai <codesigngo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phuongla/react-native-auto-typing-text/issues"
+  },
+  "homepage": "https://github.com/phuongla/react-native-auto-typing-text#readme",
+  "dependencies": {
+    "react-native-auto-typing-text": "^1.0.1"
+  }
 }
