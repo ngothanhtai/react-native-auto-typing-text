@@ -18,15 +18,16 @@ import AutoTypingText from 'react-native-auto-typing-text';
 <AutoTypingText
   text={`có căn nhà nằm nghe nắng mưa`}
   charMovingTime={80}
-  delay={8000}
+  delay={0}
   style={{
     position: 'absolute',
-    width: width - 40,
+    width: 300,
     fontSize: 30,
     color: 'rgba(0,0,0,0.7)',
     backgroundColor: 'rgba(0,0,0,0)',
     margin: 20,
     top: 240,
+    left: 0,
   }}
   onComplete={() => { console.log('done'); }}
 />
