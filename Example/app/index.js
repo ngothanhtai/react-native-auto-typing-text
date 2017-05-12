@@ -33,7 +33,7 @@ export default class App extends Component {
         <AutoTypingText
           text={`có căn nhà nằm nghe nắng mưa`}
           charMovingTime={80}
-          delay={8000}
+          delay={0}
           style={{
             position: 'absolute',
             width: width - 40,
