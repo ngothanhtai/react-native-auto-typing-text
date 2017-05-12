@@ -14,6 +14,7 @@ npm install --save react-native-auto-typing-text
 
 ```js
 import AutoTypingText from 'react-native-auto-typing-text';
+
 <AutoTypingText
   text={`có căn nhà nằm nghe nắng mưa`}
   charMovingTime={80}
@@ -22,7 +23,7 @@ import AutoTypingText from 'react-native-auto-typing-text';
     position: 'absolute',
     width: width - 40,
     fontSize: 30,
-    color: 'rgba(255,255,255,0.7)',
+    color: 'rgba(0,0,0,0.7)',
     backgroundColor: 'rgba(0,0,0,0)',
     margin: 20,
     top: 240,
