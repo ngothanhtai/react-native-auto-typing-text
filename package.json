@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-typing-text",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Auto typing text",
   "main": "AutotypingText.js",
   "scripts": {
