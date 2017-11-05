@@ -29,6 +29,10 @@ import AutoTypingText from 'react-native-auto-typing-text';
     top: 240,
     left: 0,
   }}
+  containerStyle={{
+    flex: 2,
+    alignItems: 'center',
+  }}
   onComplete={() => { console.log('done'); }}
 />
 ```
@@ -41,4 +45,5 @@ import AutoTypingText from 'react-native-auto-typing-text';
 |**`charMovingTime`**|`number`|time to type each character|
 |**`delay`**|`number`|Delay time before typing|
 |**`style`**|`string`|Style for text|
+|**`containerStyle`**|`string`|Style for text container|
 |**`onComplete`**|`func`|is called when typing completed|
