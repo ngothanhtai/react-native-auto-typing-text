@@ -1,5 +1,8 @@
 ## Release Notes
 
+### 1.0.4
+Support react 0.46+ with backwards compatibility.
+
 ### 1.0.3
 Update README.md
 
