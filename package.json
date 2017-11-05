@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/phuongla/react-native-auto-typing-text#readme",
   "dependencies": {
-    "react-native-auto-typing-text": "^1.0.1"
+    "react-native-auto-typing-text": "^1.0.1",
+    "prop-types": "^15.5.10"
   }
 }

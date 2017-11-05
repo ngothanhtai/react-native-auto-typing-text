@@ -1,10 +1,11 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   StyleSheet,
   Text,
   View
 } from 'react-native';
 import HiddenText from './HiddenText';
+import PropTypes from 'prop-types';
 
 export default class AutotypingText extends Component {
 
