@@ -10,7 +10,7 @@ export default class AutotypingText extends Component {
 
   static defaultProps = {
     text: '',
-    charMovingTime: '50',
+    charMovingTime: 50,
     delay: 0,
     style: {
       color: 'black',
